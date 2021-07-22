@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <title>Celsius to Farenheit Convertor</title>
+  <style>
+    #loading, #result {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <div class="card card-body text-center mt-5" style="font-family: 'Cabin', sans-serif; font-weight: 500; background-color: rgb(255, 255, 92);">
+          <h1 class="heading pb-3">Celsius to Farenheit Convertor</h1>
+          <form id="convertor-form">
+            <div id="temp-input" class="form-group">
+              <input type="float" class="form-control form-control-lg" id="celsiusInput" placeholder="Enter temperature in Celsius...">
+            </div>  
+            <div class="form-group">
+              <input type="submit" class="btn btn-block btn-lg" style="font-size: 20px; background-color: black; color: #fff;" value="Convert">
+            </div> 
+          </form>
+        </div>
+        <div id="loading" class="text-center">
+          <img src="img/loading.gif" alt="Loading results">
+        </div>
+        <div id="result" class="card card-body mt-5" style="font-size: 18px; font-family: 'Cabin', sans-serif; font-weight: 500; background-color: rgb(81, 206, 81);">
+          <h1 class="text-center">Result</h1>
+          <div class="mb-1">
+            <span class="text-left">Temperature in Celsius: </span>
+            <input type="number" class="h3" id="celsiusDisplay" disabled>
+          </div>  
+          <div>
+            <span class="text-left">Temperature in Farenheit: </span>
+            <input type="number" class="h3" id="farenheitResult" disabled>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>

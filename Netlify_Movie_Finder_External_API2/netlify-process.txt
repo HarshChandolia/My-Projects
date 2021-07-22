@@ -1,0 +1,29 @@
+// Install netlify
+npm i -g netlify-cli
+
+// Help
+netlify --Help
+
+// Create config file
+create netlify.toml in main dir
+
+// Initialize netlify and create site id
+netlify init
+
+// Enter unique site name and answer other questions
+
+// Run netlify dev server
+netlify dev
+
+// Run netlify dev server live with remote access (others can access)
+netlify dev --live
+
+// Create _redirects file in dist folder (if required)
+
+// Stop dev server, specify folder for functions in .toml file
+
+// Create netlify function
+netlify functions:create <function_name>
+
+// Install node-fetch for enabling fetch in netlify function
+npm install node-fetch

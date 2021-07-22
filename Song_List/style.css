@@ -1,0 +1,128 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    margin: 0 6em;
+    background-color: rgb(192, 203, 212);
+    overflow: auto;
+}
+
+.main-container h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 16px;
+}
+
+.form-container {
+    margin: 1em;
+    font-family: 'Benne', serif;
+}
+
+.form-container div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-container div > input {
+    flex-basis: 2em;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+#form-submit {
+    font-family: 'Benne', serif;
+    font-size: 16px;
+    padding: 4px;
+    background-color: rgb(37, 62, 95);
+    border-color: rgb(211, 230, 240);
+    border-radius: 5px;
+    color:cornsilk;
+}
+
+.list-container {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(37, 62, 95);
+    color: cornsilk;
+    margin: 1em 6em 0;
+    display: flex;
+}
+
+.list-container-id {
+    flex: 0.25;
+    padding: 0 0.5em;
+}
+
+.list-container-name {
+    flex: 2;
+    padding: 0 0.5em;
+}
+
+.list-container-genre {
+    flex: 1.5;
+    padding: 0 0.5em;
+}
+
+.list-container-delete {
+    flex: 1;
+    padding: 0 0.5em;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start;
+    align-content: flex-start; */
+    margin: 0 6em;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(90, 118, 143);
+    height: fit-content; 
+} 
+
+
+.movie-list-id {
+    /* flex: 0 0 15%; */
+    flex: 0.25;
+    padding: 0 0.5em;
+}
+
+.movie-list-name {
+    /* flex: 0 0 30%; */
+    flex: 2;
+    padding: 0 0.5em;
+}
+
+.movie-list-genre {
+    /* flex: 0 0 20%; */
+    flex: 1.5;
+    padding: 0 0.5em;
+}
+
+.movie-delete {
+    text-align: right;
+    flex: 1;
+}
+
+.movie-delete-item {
+    /* flex: 0 0 20%; */
+    padding: 0 2em 0 0.5em;
+    color: red;
+}
+
+.alert-danger {
+    color: red;
+    font-family: 'Benne', serif; 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 0px 16px;
+}
+
+.alert-success {
+    color: green;
+    font-family: 'Benne', serif; 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 0px 16px;
+}
+

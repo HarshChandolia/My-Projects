@@ -1,0 +1,16 @@
+Steps for enabling json server:
+Run the following commands in terminal:
+
+// To create package.json, that is a manifest file
+- npm init (Enter description and other applicable values at prompt)
+
+// To add JSON server dependency to package.json
+- npm install --save json-server
+
+// To start JSON server
+- Add npm script (can replace existing test text)
+    "json:server": "json-server --watch db.json"
+- Create data file (create your database in here, named db.json)
+
+// To run JSON server
+- npm run json:server

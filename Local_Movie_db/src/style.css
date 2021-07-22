@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 0 1em 1em;
+    margin: 0 6em;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container h1 {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0.5em 0 0 0;
+}
+
+.container h3 {
+    padding-top: 0.25em;
+    font-family: 'Merriweather', serif;
+}
+
+.movie-name {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.movie-name > input {
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+.movie-lang {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.movie-lang > input {
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+#form-submit {
+    background-color: yellowgreen;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 0.5em 0;
+    width: 50%;
+}
+
+.result-container {
+    background-color: yellowgreen;
+    border: 2px solid rgb(16, 58, 16);
+    margin: 1em 6em;
+    padding: 0 1em;
+}
+
+.result-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    margin: 0.5em 0;
+    align-items: center;
+}
+
+.item > h4 {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.item > input {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    font-size: 1em;
+}
+
+.alert-danger {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: red;
+}
+
+.alert-success {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: green;
+}
+
+

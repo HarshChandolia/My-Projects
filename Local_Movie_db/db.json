@@ -1,0 +1,71 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "The Exorcist",
+      "language": "English"
+    },
+    {
+      "id": "2",
+      "name": "Get Out",
+      "language": "English"
+    },
+    {
+      "id": "3",
+      "name": "A Quiet Place",
+      "language": "English"
+    },
+    {
+      "id": "4",
+      "name": "Shawshank Redemption",
+      "language": "English"
+    },
+    {
+      "id": "5",
+      "name": "The Game",
+      "language": "English"
+    }
+  ],
+  "movies_lookup": [
+    {
+      "id": "1",
+      "name": "The Exorcist",
+      "genre": "Horror",
+      "imdb_rating": "8.1",
+      "release_year": 1973,
+      "streaming_platforms": "Netflix"
+    },
+    {
+      "id": "2",
+      "name": "Get Out",
+      "genre": "Thriller",
+      "imdb_rating": "8.0",
+      "release_year": 2017,
+      "streaming_platforms": "Hulu"
+    },
+    {
+      "id": "3",
+      "name": "A Quiet Place",
+      "genre": "Horror, Mystery",
+      "imdb_rating": "7.4",
+      "release_year": 2018,
+      "streaming_platforms": "Amazon Prime"
+    },
+    {
+      "id": "4",
+      "name": "Shawshank Redemption",
+      "genre": "Drama, Suspense",
+      "imdb_rating": "9.0",
+      "release_year": 1994,
+      "streaming_platforms": "Netflix"
+    },
+    {
+      "id": "5",
+      "name": "The Game",
+      "genre": "Drama, Thriller",
+      "imdb_rating": "9.0",
+      "release_year": 1994,
+      "streaming_platforms": "Hotstar"
+    }
+  ]
+}

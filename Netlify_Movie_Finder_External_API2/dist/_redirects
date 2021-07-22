@@ -1,0 +1,4 @@
+/harsh https://www.google.com
+/api/* https://jsonplaceholder.typicode.com/:splat 200
+/getMovieId /.netlify/functions/getMovieLink/getMovieLink.js 200
+/getMovieLink /.netlify/functions/getMovieLink/getMovieLink.js 200

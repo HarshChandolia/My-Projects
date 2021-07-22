@@ -1,0 +1,295 @@
+@media screen and (min-width: 600px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        background-color: rgb(253, 207, 253);
+        /* border: 2px solid black; */
+        padding: 0 1em 1em;
+        /* margin: 0 4em; */
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        color: rgb(59, 20, 59);
+    }
+
+    .container h1 {
+        font-family: 'Fredericka the Great', cursive;
+        margin: 0;
+        padding: 0.5em 0 0 0;
+    }
+
+    .container h3 {
+        /* padding-top: 0.25em; */
+        font-family: 'Handlee', cursive;
+        font-size: 1.5em;
+    }
+
+    .movie-title {
+        font-family: 'Handlee', cursive;
+        font-weight: bold;
+        font-size: 1.4em;
+        margin-bottom: 1em;
+    }
+
+    .movie-title > input {
+        font-family: 'Handlee', cursive;
+        font-size: 1.2em;
+        margin-left: 0.5em;
+        width: 420px;
+    }
+
+    #form-submit {
+        background-color: rgb(59, 20, 59);
+        color: rgb(253, 207, 253);
+        font-family: 'Handlee', cursive;
+        font-size: 1.4em;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 0.5em 0;
+        width: 50%;
+        align-self: flex-start;
+        border-radius: 10px;
+    }
+
+    .result-container {
+        background-color: rgb(59, 20, 59);
+        color: rgb(253, 207, 253);
+        /* border: 2px solid rgb(16, 58, 16); */
+        margin: 1em 0em;
+        padding: 0 1em;
+    }
+
+    .result-items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        font-family: 'Architects Daughter', cursive;
+        display: flex;
+        margin: 0.8em 0;
+        align-items: flex-start;
+    }
+
+    .item > h4 {
+        font-family: 'Architects Daughter', cursive;
+        margin: 0;
+        padding: 0;
+    }
+
+    .item > input, textarea {
+        background-color: rgb(253, 207, 253);
+        color: rgb(59, 20, 59);
+        font-family: 'Architects Daughter', cursive;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-left: 0.5em;
+        padding-left: 0.5em;
+        font-size: 1em;
+        width: 450px;
+    }
+
+    .loader {
+        text-align: center;
+    }
+
+    .alert-danger {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1.4em;
+        font-weight: bold;
+        color: red;
+    }
+
+    .alert-success {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1.4em;
+        font-weight: bold;
+        color: green;
+    }
+
+    footer {
+        background-color: rgb(59, 20, 59);
+        color: rgb(238, 222, 238);
+        margin: 1em 0;
+        padding: 0.3em 1em;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        margin: 0 1em;
+    }
+
+    .nav-link-item {
+        text-decoration: underline;
+        padding: 0.5em 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        background-color: rgb(253, 207, 253);
+        /* border: 1px solid black; */
+        padding: 0 0.6em 0.6em;
+        margin: 0;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        color: rgb(59, 20, 59);
+    }
+
+    .container h1 {
+        font-family: 'Fredericka the Great', cursive;
+        margin: 0;
+        padding: 0.3em 0 0 0;
+    }
+
+    .container h3 {
+        /* padding-top: 0.25em; */
+        font-family: 'Handlee', cursive;
+        font-size: 1.5em;
+    }
+
+    .movie-title {
+        font-family: 'Handlee', cursive;
+        font-weight: bold;
+        font-size: 1.4em;
+        margin-bottom: 0.6em;
+        width: 100%;
+    }
+
+    .movie-title > label {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.3em;
+    }
+
+    .movie-title > input {
+        font-family: 'Handlee', cursive;
+        font-size: 0.8em;
+        /* margin-right: 0.5em; */
+        width: 95%;
+    }
+
+    #form-submit {
+        background-color: rgb(59, 20, 59);
+        color: rgb(253, 207, 253);
+        font-family: 'Handlee', cursive;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 0.2em 0;
+        width: 50%;
+        align-self: flex-start;
+        border-radius: 10px;
+    }
+
+    .result-container {
+        background-color: rgb(59, 20, 59);
+        color: rgb(253, 207, 253);
+        /* border: 2px solid rgb(16, 58, 16); */
+        overflow: auto;
+        margin: 0;
+        padding: 0 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .result-items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .item {
+        font-family: 'Architects Daughter', cursive;
+        margin: 0.3em 0;
+        width: 95%;
+    }
+
+    .item > h4 {
+        font-family: 'Architects Daughter', cursive;
+        margin: 0;
+        padding: 0;
+        width: 95%;
+    }
+
+    .item > input {
+        background-color: rgb(253, 207, 253);
+        color: rgb(59, 20, 59);
+        font-family: 'Architects Daughter', cursive;
+        font-weight: bold;
+        /* margin-left: 0.5em;
+        padding-left: 0.5em; */
+        font-size: 0.8em;
+        width: 90%;
+    }
+
+    .loader {
+        text-align: center;
+    }
+
+    .alert-danger {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1em;
+        font-weight: bold;
+        color: red;
+    }
+
+    .alert-success {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1em;
+        font-weight: bold;
+        color: green;
+    }
+
+    footer {
+        background-color: rgb(59, 20, 59);
+        color: rgb(238, 222, 238);
+        margin: 1em 0;
+        padding: 0.3em 1em;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-link-item {
+        text-decoration: underline;
+        padding: 0.5em 1em;
+    }
+
+    footer p {
+        width: 100%;
+    }
+}
+
+

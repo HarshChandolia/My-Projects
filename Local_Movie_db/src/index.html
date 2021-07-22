@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Local Movie DB</title>
+</head>
+<body>
+    <div class="container">
+        <h1>MOVIE LOOKUP HELPER</h1>
+        <h3>Want to know where a movie is streaming? Find it here!</h3>
+        <div class="movie-name">
+            <label for="name">MOVIE NAME</label>
+            <input type="text" id="name" placeholder="Enter movie name...">
+        </div>
+        <div class="movie-lang">
+            <label for="lang">MOVIE LANGUAGE</label>
+            <input type="text" id="lang" placeholder="Enter movie language...">
+        </div>
+        <input type="submit" id="form-submit" value="SUBMIT">
+    </div>
+    <div id="loading"></div>
+    <div id="movie-metadata"></div>
+
+    <script src="movies.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
